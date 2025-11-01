@@ -100,6 +100,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.2.5</version>
+                <configuration>
+                    <mainClass>com.hackerrank.sample.Application</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
